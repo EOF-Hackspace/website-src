@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your page.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   http://testing.eof.org.uk
+url:                   https://testing.eof.org.uk
 
 # IMPORTANT: Set The "base URL" of your site.
 #
