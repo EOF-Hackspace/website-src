@@ -24,7 +24,7 @@ bundle exec jekyll build
 #bundle exec htmlproofer ./_site
 
 # Use PROD robot.txt
-mv -f ./robot.production.txt ./_site/robot.txt
+#mv -f ./robot.production.txt ./_site/robot.txt
 
 # push
 cd _site
