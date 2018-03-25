@@ -1,7 +1,5 @@
 # EOF Hackspace Website Repository
 
-## Read Me
-
 This is the repository containing the EOF website source.
 
 ## Branches
