@@ -16,11 +16,15 @@ mkdir _site
 # clone remote repo to "_site"
 git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-deployed.git --branch master _site
 
+# Use PROD _config.yml
+mv -f ./_config.production.yml ./_config.yml
+
 # build with Jekyll into "_site"
 bundle exec jekyll build
 #bundle exec htmlproofer ./_site
 
-mv -f ./robot.txt.production ./_site/robot.txt
+# Use PROD robot.txt
+mv -f ./robot.production.txt ./_site/robot.txt
 
 # push
 cd _site
