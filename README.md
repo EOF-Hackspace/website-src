@@ -1,3 +1,5 @@
+![Build Status](https://api.travis-ci.org/EOF-Hackspace/website-src.svg?branch=master)
+
 # EOF Hackspace Website Repository
 
 This is the repository containing the EOF website source.
