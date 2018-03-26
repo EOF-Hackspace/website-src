@@ -1,4 +1,3 @@
 ---
 title: Volunteering
-menu: true
 ---

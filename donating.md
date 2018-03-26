@@ -1,4 +1,3 @@
 ---
 title: Donating
-menu: true
 ---
