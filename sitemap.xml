@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://eof-hackspace.github.io/website-src/category/hydejack/</loc>
+<lastmod>2018-03-26T14:57:39+00:00</lastmod>
+</url>
+<url>
+<loc>https://eof-hackspace.github.io/website-src/tag/example/</loc>
+<lastmod>2018-03-26T14:57:39+00:00</lastmod>
+</url>
+<url>
+<loc>https://eof-hackspace.github.io/website-src/hydejack/2017/11/23/example-content/</loc>
+<lastmod>2017-11-23T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://eof-hackspace.github.io/website-src/about/</loc>
+</url>
+<url>
+<loc>https://eof-hackspace.github.io/website-src/</loc>
+</url>
+<url>
+<loc>https://eof-hackspace.github.io/website-src/theme-README/</loc>
+</url>
+<url>
+<loc>https://eof-hackspace.github.io/website-src/assets/bower_components/html5shiv/MIT%20and%20GPL2%20licenses/</loc>
+</url>
+</urlset>
