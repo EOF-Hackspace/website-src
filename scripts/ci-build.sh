@@ -45,4 +45,4 @@ git config user.email "MetaFight@users.noreply.github.com"
 git config user.name "MetaFight"
 git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --force origin master
+git push --force origin ${TARGET_BRANCH}
