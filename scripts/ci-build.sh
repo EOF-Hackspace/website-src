@@ -24,6 +24,9 @@ fi
 rm -rf _site
 mkdir _site
 git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/${TARGET_REPO}.git --branch ${TARGET_BRANCH} _site
+cd _site
+git rm -r * -f -q
+cd ..
 
 # Use appropriate config file
 if [[ $USE_PROD_CONFIG == "true" ]]; then
@@ -31,21 +34,17 @@ if [[ $USE_PROD_CONFIG == "true" ]]; then
   mv -f ./_config.production.yml ./_config.yml
 fi
 
-pwd
-
 # build with Jekyll into "_site"
 bundle exec jekyll build
 #bundle exec htmlproofer ./_site
 
 # Overwrite robots.txt if needed
-pwd
-rm ./_site/robots.disabled.txt
 if [[ $DISABLE_ROBOTS == "true" ]]; then
-  mv -f ./robots.disabled.txt ./_site/robot.txt
+  echo "Using disabled robots.txt"
+  mv -f ./robots.disabled.txt ./_site/robots.txt
 fi
 
 # Bring in correct CNAME file for Github Pages hosting
-pwd
 rm -f ./_site/CNAME*
 if [[ $IS_PROD_BUILD == "true" ]]; then
   echo "Using Production CNAME"
