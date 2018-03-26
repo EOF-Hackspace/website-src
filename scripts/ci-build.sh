@@ -6,6 +6,9 @@ if [ $TRAVIS_PULL_REQUEST == "true" ]; then
   exit 0
 fi
 
+# enable error reporting to the console
+set -e
+
 TARGET_REPO="website-src"
 TARGET_BRANCH="gh-pages"
 USE_PROD_CONFIG="false"
@@ -17,16 +20,19 @@ if [ $IS_PROD_BUILD == "true" ]; then
   #USE_PROD_CONFIG="true"
 fi
 
-# enable error reporting to the console
-set -e
-
-# cleanup "_site"
+# clone target repo to "_site"
 rm -rf _site
 mkdir _site
-
-# clone target repo to "_site"
 git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/${TARGET_REPO}.git --branch ${TARGET_BRANCH} _site
 
+# Bring in correct CNAME file for Github Pages hosting
+if [ $IS_PROD_BUILD == "true" ]; then
+  mv ./CNAME.production ./_site/CNAME
+else
+  mv ./CNAME.testing ./_site/CNAME
+fi
+
+# Use appropriate config file
 if [ $USE_PROD_CONFIG == "true" ]; then
   mv -f ./_config.production.yml ./_config.yml
 fi
