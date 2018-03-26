@@ -9,28 +9,30 @@ fi
 # enable error reporting to the console
 set -e
 
-# cleanup "_site"
-rm -rf _site
-mkdir _site
-
 TARGET_REPO="website-src"
 TARGET_BRANCH="gh-pages"
 USE_PROD_CONFIG="false"
-
-mv ./CNAME.testing ./_site/CNAME
 
 if [ $IS_PROD_BUILD == "true" ]; then
   TARGET_REPO="website-deployed"
   TARGET_BRANCH="master"
   # temporarily disabled until PROD domain is sorted out.
   #USE_PROD_CONFIG="true"
-
-  mv ./CNAME.production ./_site/CNAME
 fi
 
 # clone target repo to "_site"
+rm -rf _site
+mkdir _site
 git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/${TARGET_REPO}.git --branch ${TARGET_BRANCH} _site
 
+# Bring in correct CNAME file for Github Pages hosting
+if [ $IS_PROD_BUILD == "true" ]; then
+  mv ./CNAME.production ./_site/CNAME
+else
+  mv ./CNAME.testing ./_site/CNAME
+fi
+
+# Use appropriate config file
 if [ $USE_PROD_CONFIG == "true" ]; then
   mv -f ./_config.production.yml ./_config.yml
 fi
