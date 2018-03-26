@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # skip if build is triggered by pull request
-if [ $TRAVIS_PULL_REQUEST == "true" ]; then
+if [[ $TRAVIS_PULL_REQUEST == "true" ]]; then
   echo "this is PR, exiting"
   exit 0
 fi
@@ -13,7 +13,7 @@ TARGET_REPO="website-src"
 TARGET_BRANCH="gh-pages"
 USE_PROD_CONFIG="false"
 
-if [ $IS_PROD_BUILD == "true" ]; then
+if [[ $IS_PROD_BUILD == "true" ]]; then
   TARGET_REPO="website-deployed"
   TARGET_BRANCH="master"
   # temporarily disabled until PROD domain is sorted out.
@@ -26,14 +26,14 @@ mkdir _site
 git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/${TARGET_REPO}.git --branch ${TARGET_BRANCH} _site
 
 # Bring in correct CNAME file for Github Pages hosting
-if [ $IS_PROD_BUILD == "true" ]; then
+if [[ $IS_PROD_BUILD == "true" ]]; then
   mv ./CNAME.production ./_site/CNAME
 else
   mv ./CNAME.testing ./_site/CNAME
 fi
 
 # Use appropriate config file
-if [ $USE_PROD_CONFIG == "true" ]; then
+if [[ $USE_PROD_CONFIG == "true" ]]; then
   mv -f ./_config.production.yml ./_config.yml
 fi
 
@@ -41,7 +41,7 @@ fi
 bundle exec jekyll build
 #bundle exec htmlproofer ./_site
 
-if [ $DISABLE_ROBOTS == "true" ]; then
+if [[ $DISABLE_ROBOTS == "true" ]]; then
   mv -f ./robots.disabled.txt ./_site/robot.txt
 fi
 
