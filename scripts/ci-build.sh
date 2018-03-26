@@ -23,8 +23,8 @@ mv -f ./_config.production.yml ./_config.yml
 bundle exec jekyll build
 #bundle exec htmlproofer ./_site
 
-# Use PROD robot.txt
-#mv -f ./robot.production.txt ./_site/robot.txt
+# Temporarily disable sitemap and crawling in PROD
+mv -f ./robots.disabled.txt ./_site/robot.txt
 
 # push
 cd _site
