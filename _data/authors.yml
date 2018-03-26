@@ -3,8 +3,8 @@
 # You can change `author1` to your shortname.
 author1:
   # Replace <...> with your own (remove the < >)
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              EOF Hackspace
+  email:             info@eof.org.uk
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -26,10 +26,10 @@ author1:
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         <username>
-    github:          <username>
-    download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
-    # email:           mailto:<mail@domain.tld>
+    twitter:         "@eof_oxford"
+    github:          "EOF-Hackspace"
+    #download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
+    email:           info@eof.org.uk
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
