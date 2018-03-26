@@ -12,11 +12,13 @@ set -e
 TARGET_REPO="website-src"
 TARGET_BRANCH="gh-pages"
 USE_PROD_CONFIG="false"
+DISABLE_ROBOTS="true"
 
 if [[ $IS_PROD_BUILD == "true" ]]; then
   TARGET_REPO="website-deployed"
   TARGET_BRANCH="master"
   # temporarily disabled until PROD domain is sorted out.
+  #DISABLE_ROBOTS="false"
   #USE_PROD_CONFIG="true"
 fi
 
@@ -41,7 +43,10 @@ bundle exec jekyll build
 # Overwrite robots.txt if needed
 if [[ $DISABLE_ROBOTS == "true" ]]; then
   echo "Using disabled robots.txt"
-  mv -f ./robots.disabled.txt ./_site/robots.txt
+  mv -f ./_site/robots.disabled.txt ./_site/robots.txt
+else
+  echo "Using generated robots.txt"
+  rm ./_site/robots.disabled.txt
 fi
 
 # Bring in correct CNAME file for Github Pages hosting
@@ -56,6 +61,7 @@ fi
 
 # push
 cd _site
+rm README.md
 git config user.email "MetaFight@users.noreply.github.com"
 git config user.name "MetaFight"
 git add --all

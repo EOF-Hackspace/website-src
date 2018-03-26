@@ -1,5 +1,0 @@
-# Rule 1
-User-agent: *
-Disallow: /
-
-# Sitemap: http://www.example.com/sitemap.xml
