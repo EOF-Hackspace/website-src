@@ -77,6 +77,31 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
+# Sidebar
+# ----------------------------------------------------------------------------------------
+
+defaults:
+  - scope:
+      path: pages/about.md
+    values:
+      menu: true
+      order: 1
+  - scope:
+      path: projects.md
+    values:
+      menu: true
+      order: 2
+  - scope:
+      path: resume.md
+    values:
+      menu: true
+      order: 3
+  - scope:
+      path: about.md
+    values:
+      menu: true
+      order: 4
+
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
