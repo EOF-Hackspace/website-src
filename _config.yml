@@ -92,7 +92,7 @@ defaults:
     menu: true
     order: 2
 - scope:
-    path: courses.md
+    path: how-to-join.md
   values:
     menu: true
     order: 3
@@ -102,7 +102,7 @@ defaults:
 #     menu: true
 #     order: 3
 - scope:
-    path: how-to-join.md
+    path: courses.md
   values:
     menu: true
     order: 4
