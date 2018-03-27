@@ -87,15 +87,15 @@ defaults:
     menu: true
     order: 1
 - scope:
-    path: how-to-joing.md
+    path: how-to-join.md
   values:
     menu: true
     order: 2
-# - scope:
-#     path: _pages/volunteering.md
-#   values:
-#     menu: true
-#     order: 3
+- scope:
+    path: _pages/volunteering.md
+  values:
+    menu: true
+    order: 3
 - scope:
     path: donating.md
   values:
