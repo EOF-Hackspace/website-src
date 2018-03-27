@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How to Join
-menu: true
+# menu: true
 ---
 ## How to join EOF
 

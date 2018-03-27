@@ -80,37 +80,37 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 # Sidebar
 # ----------------------------------------------------------------------------------------
 
-# defaults:
+defaults:
+- scope:
+    path: about.md
+    values:
+      menu: true
+      order: 1
+- scope:
+    path: how-to-joing.md
+    values:
+      menu: true
+      order: 2
 # - scope:
-#   path: about.md
-#   values:
-#     menu: true
-#     order: 1
-# - scope:
-#   path: how-to-joing.md
-#   values:
-#     menu: true
-#     order: 2
-# - scope:
-#   path: _pages/volunteering.md
-#   values:
-#     menu: true
-#     order: 3
-# - scope:
-#   path: donating.md
-#   values:
-#     menu: true
-#     order: 4
-# - scope:
-#   path: getting-here.md
-#   values:
-#     menu: true
-#     order: 5
-# - scope:
-#   path: forum.md
-#   values:
-#     menu: true
-#     order: 6
+#     path: _pages/volunteering.md
+#     values:
+#       menu: true
+#       order: 3
+- scope:
+    path: donating.md
+    values:
+      menu: true
+      order: 4
+- scope:
+    path: getting-here.md
+    values:
+      menu: true
+      order: 5
+- scope:
+    path: forum.md
+    values:
+      menu: true
+      order: 6
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------

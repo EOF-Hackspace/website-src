@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Donating
-menu: true
+# menu: true
 ---
 
 This is a list:
