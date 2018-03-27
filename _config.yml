@@ -91,6 +91,11 @@ defaults:
   values:
     menu: true
     order: 2
+- scope:
+    path: courses.md
+  values:
+    menu: true
+    order: 3
 # - scope:
 #     path: events.md
 #   values:
@@ -107,12 +112,12 @@ defaults:
     menu: true
     order: 5
 - scope:
-    path: getting-here.md
+    path: code-of-conduct.md
   values:
     menu: true
     order: 6
 - scope:
-    path: code-of-conduct.md
+    path: getting-here.md
   values:
     menu: true
     order: 7
