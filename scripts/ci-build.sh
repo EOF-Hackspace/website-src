@@ -36,6 +36,8 @@ if [[ $USE_PROD_CONFIG == "true" ]]; then
   mv -f ./_config.production.yml ./_config.yml
 fi
 
+mv ./_pages/* ./
+
 # build with Jekyll into "_site"
 bundle exec jekyll build
 #bundle exec htmlproofer ./_site
