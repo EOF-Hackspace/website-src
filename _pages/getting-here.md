@@ -1,5 +1,8 @@
 ---
 layout: page
 title: Getting Here
-# menu: true
 ---
+
+*(Put map here)*
+
+*(Link to Aristotle House/Makespace Oxford page)*

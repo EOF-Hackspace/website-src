@@ -82,35 +82,45 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
 - scope:
-    path: about.md
+    path: about-us.md
   values:
     menu: true
     order: 1
 - scope:
-    path: how-to-join.md
+    path: services.md
   values:
     menu: true
     order: 2
+# - scope:
+#     path: events.md
+#   values:
+#     menu: true
+#     order: 3
 - scope:
-    path: volunteering.md
-  values:
-    menu: true
-    order: 3
-- scope:
-    path: donating.md
+    path: how-to-join.md
   values:
     menu: true
     order: 4
 - scope:
-    path: getting-here.md
+    path: donations.md
   values:
     menu: true
     order: 5
 - scope:
-    path: forum.md
+    path: getting-here.md
   values:
     menu: true
     order: 6
+- scope:
+    path: code-of-conduct.md
+  values:
+    menu: true
+    order: 7
+- scope:
+    path: link-forum.md
+  values:
+    menu: true
+    order: 8
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
