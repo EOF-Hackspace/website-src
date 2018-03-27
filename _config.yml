@@ -191,6 +191,8 @@ collections:
 # File inclusion/exclusion
 # ========================================================================================
 
+include: ["_pages"]
+
 exclude:
   - vendor
   - Gemfile
