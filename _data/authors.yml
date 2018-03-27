@@ -4,7 +4,7 @@
 author1:
   # Replace <...> with your own (remove the < >)
   name:              EOF Hackspace
-  email:             info@eof.org.uk
+  email:             mailto:info@eof.org.uk
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -29,7 +29,7 @@ author1:
     twitter:         "@eof_oxford"
     github:          "EOF-Hackspace"
     #download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
-    email:           info@eof.org.uk
+    email:           mailto:info@eof.org.uk
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
