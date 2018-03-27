@@ -92,7 +92,7 @@ defaults:
     menu: true
     order: 2
 - scope:
-    path: _pages/volunteering.md
+    path: volunteering.md
   values:
     menu: true
     order: 3
@@ -191,7 +191,9 @@ collections:
 # File inclusion/exclusion
 # ========================================================================================
 
-include: ["_pages"]
+# Instead of including the "_pages" directory the build script copies its contents to the root.
+# This makes handling permalinks easier.
+#include: ["_pages"]
 
 exclude:
   - vendor
