@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Volunteering
-permalink: /:title/
+permalink: /volunteering/
 ---
 
 Doing stuff.
