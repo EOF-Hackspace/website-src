@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ywote2');
-  src:  url('fonts/icomoon.eot?ywote2#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ywote2') format('truetype'),
-    url('fonts/icomoon.woff?ywote2') format('woff'),
-    url('fonts/icomoon.svg?ywote2#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?wgpxvk');
+  src:  url('fonts/icomoon.eot?wgpxvk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wgpxvk') format('truetype'),
+    url('fonts/icomoon.woff?wgpxvk') format('woff'),
+    url('fonts/icomoon.svg?wgpxvk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,7 +26,6 @@
 
 .icon-meetup:before {
   content: "\e900";
-  color: #ed1c40;
 }
 .icon-book:before {
   content: "\e91f";
