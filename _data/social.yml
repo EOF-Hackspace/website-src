@@ -205,5 +205,5 @@
     icon: icon-box-add
   meetup:
     name: Meetup
-    # icon: icon-meetup
+    icon: icon-meetup
     prepend: "https://www.meetup.com/"
