@@ -2,7 +2,7 @@
 
 # skip if build is triggered by pull request
 if [[ $TRAVIS_PULL_REQUEST == "true" ]]; then
-  echo "this is PR, exiting"
+  echo "this is PR, exiting."
   exit 0
 fi
 
@@ -15,6 +15,7 @@ USE_PROD_CONFIG="false"
 DISABLE_ROBOTS="true"
 
 if [[ $IS_PROD_BUILD == "true" ]]; then
+  echo "Using Production Build settings."
   TARGET_REPO="website-deployed"
   TARGET_BRANCH="master"
   # temporarily disabled until PROD domain is sorted out.
@@ -32,10 +33,12 @@ cd ..
 
 # Use appropriate config file
 if [[ $USE_PROD_CONFIG == "true" ]]; then
-  echo "Using Production config file"
+  echo "Using Production config file."
   mv -f ./_config.production.yml ./_config.yml
 fi
 
+# prepare checkout for build
+rm ./theme-README.md
 mv ./_pages/* ./
 
 # build with Jekyll into "_site"
@@ -44,20 +47,20 @@ bundle exec jekyll build
 
 # Overwrite robots.txt if needed
 if [[ $DISABLE_ROBOTS == "true" ]]; then
-  echo "Using disabled robots.txt"
+  echo "Using disabled robots.txt."
   mv -f ./_site/robots.disabled.txt ./_site/robots.txt
 else
-  echo "Using generated robots.txt"
+  echo "Using generated robots.txt."
   rm ./_site/robots.disabled.txt
 fi
 
 # Bring in correct CNAME file for Github Pages hosting
 rm -f ./_site/CNAME*
 if [[ $IS_PROD_BUILD == "true" ]]; then
-  echo "Using Production CNAME"
+  echo "Using Production CNAME."
   cp ./CNAME.production ./_site/CNAME
 else
-  echo "Using Testing CNAME"
+  echo "Using Testing CNAME."
   cp ./CNAME.testing ./_site/CNAME
 fi
 
