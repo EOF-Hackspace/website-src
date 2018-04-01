@@ -166,6 +166,7 @@ exclude:
   - CNAME.testing
   - .travis.yml
   - scripts/
+  - docker/
 
 
 # Plugins and Plugin Configuration
