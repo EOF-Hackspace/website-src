@@ -34,12 +34,8 @@ cd ..
 # Use appropriate config file
 if [[ $USE_PROD_CONFIG == "true" ]]; then
   echo "Using Production config file."
-  mv -f ./_config.production.yml ./_config.yml
+  # TODO: overwrite URL value in config file
 fi
-
-# prepare checkout for build
-rm ./theme-README.md
-mv ./_pages/* ./
 
 # build with Jekyll into "_site"
 bundle exec jekyll build
@@ -48,10 +44,7 @@ bundle exec jekyll build
 # Overwrite robots.txt if needed
 if [[ $DISABLE_ROBOTS == "true" ]]; then
   echo "Using disabled robots.txt."
-  mv -f ./_site/robots.disabled.txt ./_site/robots.txt
-else
-  echo "Using generated robots.txt."
-  rm ./_site/robots.disabled.txt
+  cp -f ./robots.disabled.txt ./_site/robots.txt
 fi
 
 # Bring in correct CNAME file for Github Pages hosting

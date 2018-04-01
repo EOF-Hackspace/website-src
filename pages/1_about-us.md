@@ -14,6 +14,10 @@ description: >
 
 # You can show the description on the page by deleting this line:
 hide_description: true
+
+menu: true
+order: 1
+permalink: /about-us/
 ---
 
 **EOF Hackspace** is ... *(Add intro here)*

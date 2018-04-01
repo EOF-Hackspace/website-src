@@ -1,6 +1,10 @@
 ---
 layout: page
 title: Donations
+
+menu: true
+order: 4
+permalink: /donations/
 ---
 
 *(Outline donations policy)*

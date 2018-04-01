@@ -77,56 +77,6 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
-# Sidebar
-# ----------------------------------------------------------------------------------------
-
-defaults:
-- scope:
-    path: about-us.md
-  values:
-    menu: true
-    order: 1
-- scope:
-    path: services.md
-  values:
-    menu: true
-    order: 2
-- scope:
-    path: how-to-join.md
-  values:
-    menu: true
-    order: 3
-# - scope:
-#     path: events.md
-#   values:
-#     menu: true
-#     order: 3
-- scope:
-    path: courses.md
-  values:
-    menu: true
-    order: 4
-- scope:
-    path: donations.md
-  values:
-    menu: true
-    order: 5
-- scope:
-    path: code-of-conduct.md
-  values:
-    menu: true
-    order: 6
-- scope:
-    path: getting-here.md
-  values:
-    menu: true
-    order: 7
-- scope:
-    path: link-forum.md
-  values:
-    menu: true
-    order: 8
-
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
@@ -206,14 +156,16 @@ collections:
 # File inclusion/exclusion
 # ========================================================================================
 
-# Instead of including the "_pages" directory the build script copies its contents to the root.
-# This makes handling permalinks easier.
-#include: ["_pages"]
-
 exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - theme-README.md
+  - robots.disabled.txt
+  - CNAME.production
+  - CNAME.testing
+  - .travis.yml
+  - scripts/
 
 
 # Plugins and Plugin Configuration
