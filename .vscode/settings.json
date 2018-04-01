@@ -1,0 +1,4 @@
+{
+  "terminal.integrated.shell.windows": "c:\\Windows\\system32\\cmd.exe",
+	"docker.dockerComposeDetached": false
+}

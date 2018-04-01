@@ -28,7 +28,8 @@ node_modules
 
 # Remove some common IDE working directories
 .idea
-.vscode
+.vscode/*
+!/.vscode/settings.json
 
 # Jekyll
 _site
