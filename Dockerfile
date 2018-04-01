@@ -4,9 +4,9 @@ RUN apk add --no-cache build-base gcc bash cmake
 
 RUN gem install jekyll
 
-EXPOSE 4000
+EXPOSE 4000 35729
 
-WORKDIR /site
+WORKDIR /src
 
 COPY ./scripts/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
