@@ -4,4 +4,5 @@ title: Forum
 
 menu: true
 order: 7
+permalink: /forum/
 ---
