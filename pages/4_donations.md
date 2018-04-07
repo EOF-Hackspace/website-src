@@ -24,4 +24,3 @@ permalink: /donations/
     * Wood working
     * Electrics
     * Electronics
-

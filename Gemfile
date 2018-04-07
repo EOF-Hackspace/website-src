@@ -16,7 +16,7 @@ gem "jekyll"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-theme-hydejack"
+  gem "jekyll-theme-hydejack", "7.5.0"
   gem "jekyll-avatar"
   gem "jekyll-default-layout"
   gem "jekyll-feed"
