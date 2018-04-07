@@ -3,7 +3,7 @@ layout: page
 title: Donations
 
 menu: true
-order: 4
+order: 3
 permalink: /donations/
 ---
 

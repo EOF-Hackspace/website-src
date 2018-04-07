@@ -3,7 +3,7 @@ layout: page
 title: Getting Here
 
 menu: true
-order: 6
+order: 4
 permalink: /getting-here/
 ---
 
