@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://testing.eof.org.uk/</loc>
+</url>
+<url>
 <loc>https://testing.eof.org.uk/about-us/</loc>
 </url>
 <url>
 <loc>https://testing.eof.org.uk/how-to-join/</loc>
 </url>
 <url>
-<loc>https://testing.eof.org.uk/courses/</loc>
-</url>
-<url>
 <loc>https://testing.eof.org.uk/donations/</loc>
-</url>
-<url>
-<loc>https://testing.eof.org.uk/code-of-conduct/</loc>
 </url>
 <url>
 <loc>https://testing.eof.org.uk/getting-here/</loc>
 </url>
 <url>
 <loc>https://testing.eof.org.uk/</loc>
+</url>
+<url>
+<loc>https://testing.eof.org.uk/pages/2.1_courses/</loc>
+</url>
+<url>
+<loc>https://testing.eof.org.uk/pages/2.2_code-of-conduct/</loc>
 </url>
 </urlset>
