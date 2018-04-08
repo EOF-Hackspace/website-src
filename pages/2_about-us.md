@@ -15,9 +15,9 @@ permalink: /about-us/
 
 *(Describe co-op, member-run nature)*
 
-## Services
+## Facilities
 
-*(Explain how hackspaces tend to have a DIY mentality.  Refer to the **Courses** page for courses we offer to facilitate this)*
+*(Explain how hackspaces tend to have a DIY/self-service mentality.)*
 
 We currently offer the following tools:
 
@@ -33,6 +33,6 @@ Workloads we're aiming to support in the near future:
 
 *(These will need to be replaced with real items)*
 
-*(Explanation that these workloads are decided by our members.  Link to **How to Join** page)*
+*(Explanation that these workloads are decided by our members.  Link to [How to Join](/how-to-join) page)*
 
 stuff
