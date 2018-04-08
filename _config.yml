@@ -22,7 +22,7 @@ baseurl:               /
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 EOF Hackspace Co-operative
+title:                 EOF Co&#8209;operative Workshop
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -35,7 +35,7 @@ tagline:               >
   A member-run workshop serving the Oxford community.
 
 # A list of keywords for your blog.
-keywords:              ["oxford", "hackspace", "community", "workshop", "makespace", "makerspace"]
+keywords:              ["oxford", "hackspace", "community", "workshop", "makespace", "makerspace", "co-op"]
 
 # Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
@@ -55,7 +55,7 @@ copyright:             © 2018 EOF Hackspace CIC. All rights reserved.
 permalink:             pretty
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              5
+paginate:              1
 paginate_path:         /page-:num/
 
 # Customizaton
@@ -98,7 +98,8 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related]
+  # post_addons:         [about, newsletter, related]
+  post_addons:         []
 
   # Configure the order of complementary content on project pages
   project_addons:      [about, newsletter, other]
