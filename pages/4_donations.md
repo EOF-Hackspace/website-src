@@ -7,20 +7,32 @@ order: 3
 permalink: /donations/
 ---
 
-*(Outline donations policy)*
+Do you have a donation you think could help us?
+{:.junk}
 
-*(List items we are currently accepting... to be refined:)*
+We're currently in the early stages of setting up and will gladly accept any help we can get!
+
+Here's a list of things we are currently looking for:
 
 * **IT**
-  * HDMI Computer monitors
-  * Laptop (to run our 3d printer software) < 5 yrs
-  * Desktops (General use) < 5 yrs
+  * Computer monitors (preferable HDMI capable)
+  * A Laptop to run our 3d printer software (preferably less than 5 yrs old)
+  * Desktops for general use (preferably less than 5 yrs old)
   * Network Switch
+  * Cables
+    * HDMI
+    * Ethernet
+    * USB
+    * Extension leads
+    * Kettle leads
 * **Tools**
-  * Power tools
   * Hand tools
-* Books
+  * Power tools
+* **Books**
   * DIY books
     * Wood working
     * Electrics
     * Electronics
+  * Programming books
+
+If you've got something that isn't in the list but you think we may want please [contact us](/contact-us).
