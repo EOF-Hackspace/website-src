@@ -8,7 +8,6 @@ permalink: /donations/
 ---
 
 Do you have a donation you think could help us?
-{:.junk}
 
 We're currently in the early stages of setting up and will gladly accept any help we can get!
 
