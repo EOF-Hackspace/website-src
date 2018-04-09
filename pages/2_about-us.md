@@ -33,6 +33,6 @@ Workloads we're aiming to support in the near future:
 
 *(These will need to be replaced with real items)*
 
-*(Explanation that these workloads are decided by our members.  Link to [How to Join](/how-to-join) page)*
+*(Explanation that these workloads are decided by our members.  Link to [How to Join](/how-to-join/) page)*
 
 stuff
