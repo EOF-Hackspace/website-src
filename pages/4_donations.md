@@ -29,9 +29,6 @@ Here's a list of things we are currently looking for:
   * Power tools
 * **Books**
   * DIY books
-    * Wood working
-    * Electrics
-    * Electronics
   * Programming books
 
 If you've got something that isn't in the list but you think we may want please [contact us](/contact-us).
