@@ -3,11 +3,13 @@ layout: page
 title: Welcome to the EOF Co-op Workshop
 ---
 
-We are a new **Community Workshop** in **Oxford**.  Our aim is to support the Maker community by offering a work spaces designed by the community itself.
+We are a new **Community Workshop** in **Oxford**.  Our aim is to support the Maker community by offering work spaces designed by the community itself.
 
 (insert centred, or float-right image here)
 
 We're currently busy setting up, however, we plan on opening our doors in **early May 2018**.
+
+---
 
 If you would like to know more about us, please visit the [About Us](/about-us/) page.
 
