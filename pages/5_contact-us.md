@@ -18,7 +18,7 @@ You can reach us by [email](mailto:info@eof.org.uk) or on any of our social medi
 <div style="width: 100%"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=500&amp;hl=en&amp;q=Aristotle%20House+(EOF%20Hackspace)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
 
 Our address is:
-> Aristotle House,<br/>
-> 1 Aristotle Lane,<br/>
+> Aristotle House<br/>
+> 1 Aristotle Lane<br/>
 > Oxford<br/>
 > OX2 6TP
