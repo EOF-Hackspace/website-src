@@ -20,6 +20,6 @@ You can reach us by Email or on any of our social media presences:
 
 Our address is:
 > Aristotle House<br/>
-> 1 Aristotle Lane,<br/>
+> 1 Aristotle Lane<br/>
 > Oxford<br/>
 > OX2 6TP
