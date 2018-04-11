@@ -9,6 +9,7 @@ permalink: /contact-us/
 
 You can reach us by [email](mailto:info@eof.org.uk) or on any of our social media presences:
 
+* **Email** [info@eof.org.uk](mailto:info@eof.org.uk)
 * **Facebook** [@EOFCoop](https://facebook.com/EOFCoop)
 * **Twitter**  [@eof_oxford](https://twitter.com/@eof_oxford)
 * **Meetup**  [@eof-events](https://www.meetup.com/eof-events)
