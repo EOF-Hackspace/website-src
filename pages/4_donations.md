@@ -17,13 +17,9 @@ Here's a list of things we are currently looking for:
   * Computer monitors (preferable HDMI capable)
   * A Laptop to run our 3d printer software (preferably less than 5 yrs old)
   * Desktops for general use (preferably less than 5 yrs old)
+  * Printer
   * Network Switch
-  * Cables
-    * HDMI
-    * Ethernet
-    * USB
-    * Extension leads
-    * Kettle leads
+  * Cables (HDMI, Ethernet, USB, Extension leads, Kettle leads, etc)
 * **Tools**
   * Hand tools
   * Power tools
