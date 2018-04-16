@@ -9,9 +9,13 @@ order: 2
 permalink: /about-us/
 ---
 
-**EOF** is a new community workshop serving the Oxford area.  Although we are still in the very early stages of development we can already offer a space for electronics work, 3D Printing, and Laser etching.
+**EOF** is a new community workshop serving the Oxford area.
 
-We plan on expanding our offering based on what our members' interests.
+Although we are still in the very early stages of development we can already offer a space for electronics work, 3D Printing, and Laser etching.
+
+The tools we purchase and the direction in which we expand will be primarily decided by our members.  If you would like us to acquire a particular tool, please join the co-op and make your case!
+
+We also take suggestions from non-member users, however it may take longer to action them. 
 
 ## How we operate
 
