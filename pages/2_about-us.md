@@ -1,15 +1,17 @@
 ---
 layout: about
 title: About Us
-description: >
-  -
+# description: >
+#   -
 hide_description: true
 menu: true
 order: 2
 permalink: /about-us/
 ---
 
-**EOF Hackspace** is ... *(Add intro here)*
+**EOF** is a new community workshop serving the Oxford area.  Although we are still in the very early stages of development we can already offer a space for electronics work, 3D Printing, and Laser etching.
+
+We plan on expanding our offering based on what our members' interests.
 
 ## How we operate
 
