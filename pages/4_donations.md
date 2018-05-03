@@ -15,7 +15,7 @@ Here's a list of things we are currently looking for:
 
 * **IT**
   * Computer monitors (preferable HDMI capable)
-  * A Laptop to run our 3d printer software (preferably less than 5 yrs old)
+  * A Laptop to run our 3D printer software (preferably less than 5 yrs old)
   * Desktops for general use (preferably less than 5 yrs old)
   * Printer
   * Network Switch
