@@ -19,8 +19,8 @@ Until then, please explore our website or [get in touch](/contact-us/) for more 
 
 1. ☑ Pick a legal structure:  **Co-op**
 1. ☑ Pick a name:  **EOF**
-1. ☐ Build website *(in progress)*
-1. ☐ Incorporate *(in progress)*
-1. ☐ Settle in at our beautiful location in Jericho
+1. 🚧 Build website (in progress)
+1. 🚧 Incorporate (in progress)
+1. 🚧 Settle in at our beautiful location in Jericho (in progress)
 1. ☐ Open our doors to the public! 🎉
 1. ☐ Outreach
