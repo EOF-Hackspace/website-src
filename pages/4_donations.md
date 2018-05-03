@@ -11,10 +11,10 @@ Do you have a donation you think could help us?
 
 We're currently in the early stages of setting up and will gladly accept any help we can get!
 
-Here's a list of things we are currently looking for:
+Here's a list of things we could be interested in:
 
 * **IT**
-  * Computer monitors (preferable HDMI capable)
+  * Computer monitors (preferably HDMI capable)
   * A Laptop to run our 3D printer software (preferably less than 5 yrs old)
   * Desktops for general use (preferably less than 5 yrs old)
   * Printer
