@@ -9,7 +9,7 @@ order: 2
 permalink: /about-us/
 ---
 
-**EOF Hackspace** is an open community of makers and repairers who come together to share knowledge, tools and space. Our location at MakeSpace offers us a much needed workshop space to work on all kinds of projects, including collaborations with Brookes University, Oxfordshire County Library, the Ashmolean Museum and more. We offer workshops in a variety of topics including 3D printing, digital electronics (Arduino and RaspberryPi), special makeup effects, laser etching wood and plastics, and as our membership grows we will adapt to the interests of our members.
+**EOF Hackspace** is an open community of makers and repairers who come together to share knowledge, tools and space. Our location at Makespace Oxford offers us a much needed workshop space to work on all kinds of projects, including collaborations with Brookes University, Oxfordshire County Library, the Ashmolean Museum and more. We offer workshops in a variety of topics including 3D printing, digital electronics (Arduino and RaspberryPi), special makeup effects, laser etching wood and plastics, and as our membership grows we will adapt to the interests of our members.
 
 The tools we purchase and the direction in which we expand will be primarily decided by our members.  If you would like us to acquire a particular tool, please [join the co-op](/how-to-join/) and make your case! We also take suggestions from non-member users, however it may take longer to action them. 
 
