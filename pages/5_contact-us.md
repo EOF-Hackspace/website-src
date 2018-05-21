@@ -11,7 +11,7 @@ You can reach us by Email or on any of our social media presences:
 
 * **Email** [info@eof.org.uk](mailto:info@eof.org.uk)
 * **Facebook** [@EOFCoop](https://facebook.com/EOFCoop)
-* **Twitter**  [@eof_oxford](https://twitter.com/@eof_oxford)
+* **Twitter**  [@EOFCoop](https://twitter.com/@EOFCoop)
 * **Meetup**  [@eof-events](https://www.meetup.com/eof-events)
 
 ## How to Get Here
@@ -23,3 +23,11 @@ Our address is:
 > 1 Aristotle Lane<br/>
 > Oxford<br/>
 > OX2 6TP
+
+## Driving
+
+If you need to drive to the location please be aware that we have limited spaces. There is also a barrier from Aristotle Lane to the gate so if you need to use navigation please use:
+
+> 1 Hayfield Road<br/>
+> Oxford<br/>
+> OX2 6TX
