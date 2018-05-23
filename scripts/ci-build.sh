@@ -33,7 +33,7 @@ cd ..
 # Use appropriate config file
 if [[ $USE_PROD_CONFIG == "true" ]]; then
   echo "Using Production config file."
-  # TODO: overwrite URL value in config file
+  cp -f ./_config.production.yml ./_config.yml
 fi
 
 # build with Jekyll into "_site"
