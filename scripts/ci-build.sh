@@ -16,11 +16,10 @@ DISABLE_ROBOTS="true"
 
 if [[ $IS_PROD_BUILD == "true" ]]; then
   echo "Using Production Build settings."
-  TARGET_REPO="website-deployed"
+  TARGET_REPO="website-production"
   TARGET_BRANCH="master"
-  # temporarily disabled until PROD domain is sorted out.
-  #DISABLE_ROBOTS="false"
-  #USE_PROD_CONFIG="true"
+  DISABLE_ROBOTS="false"
+  USE_PROD_CONFIG="true"
 fi
 
 # clone target repo to "_site"
