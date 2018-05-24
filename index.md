@@ -7,7 +7,7 @@ We are a new **Community Workshop** in **Oxford**.
 
 Our aim is to support the Maker community by offering work spaces designed by the community itself.
 
-We're currently busy setting up, however, we plan on opening our doors in **early May 2018**.
+We're currently busy setting up, however, we plan on opening our doors in **early June 2018**.
 
 <div style="border: 1px solid #ddd; float: right; margin-left: 16px; width: 45%; padding: 15px;">
   <img src="/assets/img/busy.png" style="width: 100%; margin: 0;">
