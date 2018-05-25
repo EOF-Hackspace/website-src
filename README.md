@@ -15,6 +15,4 @@ Development happens in the `master` branch.  Changes to this branch are automati
 
 When the changes in `gh-pages` are ready to go live, the developer should notify me, Yves Conan.  I'll trigger a Production build.
 
-The Production build is very similar.  It takes the contents of `master`, build them, and deploys them to the `master` branch of the `EOF-Hackspace/website-production` repository.  The changes will then become visible at https://www.eof.org.uk .
-
-I'm hoping to simplify the build/deployment to Production in the future.
+The Production build is very similar.  It takes the `production` branch, builds it, and deploys the result to the `master` branch of the `EOF-Hackspace/website-production` repository.  The changes will then become visible at https://www.eof.org.uk .
