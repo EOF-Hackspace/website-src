@@ -14,6 +14,10 @@ TARGET_BRANCH="gh-pages"
 USE_PROD_CONFIG="false"
 DISABLE_ROBOTS="true"
 
+if [[ $TRAVIS_BRANCH == "production" ]]; then
+  IS_PROD_BUILD="true"
+fi
+
 if [[ $IS_PROD_BUILD == "true" ]]; then
   echo "Using Production Build settings."
   TARGET_REPO="website-production"
