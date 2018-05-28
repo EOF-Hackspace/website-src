@@ -4,6 +4,7 @@ title:  "Bob Brown's Readie Machine"
 date:   2018-05-25 14:00:00 0000
 categories: projects
 author: "Iulian Arcus"
+published: false
 ---
 
 During the last week I've been working on building a replica "e-reader" inspired by a concept from the 1930's, initially designed by Bob Brown, an american inventor and writer.
