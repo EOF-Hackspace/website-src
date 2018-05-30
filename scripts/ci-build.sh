@@ -54,7 +54,7 @@ fi
 rm -f ./_site/CNAME*
 if [[ $IS_PROD_BUILD == "true" ]]; then
   echo "Using Production CNAME."
-  echo "www.eof.org.uk" > ./_site/CNAME
+  echo "eof.org.uk" > ./_site/CNAME
 else
   echo "Using Testing CNAME."
   echo "testing.eof.org.uk" > ./_site/CNAME
