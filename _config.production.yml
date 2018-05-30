@@ -201,7 +201,7 @@ theme: jekyll-theme-hydejack
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: jHB028MRBMgS99wdkbWCnV-IiCsbdlQ3oNhxxqX3G94
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
