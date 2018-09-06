@@ -1,5 +1,5 @@
 ---
-redirect_to: javascript:window.open('https://forum.eof.org.uk')
+redirect_to: 'https://forum.eof.org.uk'
 title: Forum
 
 menu: true
