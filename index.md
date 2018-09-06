@@ -1,26 +1,40 @@
 ---
 layout: page
-title: Welcome to the EOF Co-op Workshop
+title: Welcome to the EOF Workshop Co&#8209;operative
 ---
+<link rel="stylesheet" href="/assets/css/custom.css">
 
+<div class="title-logo-container">
+  <img alt="EOF Workshop Co-op" src="/assets/img/logo.jpg" class="title-logo" />
+</div>
 We are a new **Community Workshop** in **Oxford**.
 
-Our aim is to support the Maker community by offering work spaces designed by the community itself.
+Our aim is to support the Maker community by offering a workshop designed and operated by the community itself.
 
-We're currently busy setting up, however, we plan on opening our doors in **early June 2018**.
+We are now officially open and have started working on supporting the following work loads:
 
-<div style="border: 1px solid #ddd; float: right; margin-left: 16px; width: 45%; padding: 15px;">
-  <img src="/assets/img/busy.png" style="width: 100%; margin: 0;">
+* Wood working
+* Electronics
+
+If you would like to help, or if there is another workload you would like supported, please consider [joining us](/how-to-join/) 😃.
+
+## Opening Hours
+
+<div class="opening-hours-container portrait-only">
+  <iframe 
+    src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=otgrpo8imlghmb9gi4vfsd9r1c%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=Europe%2FLondon"
+    style="border-width:0; min-height: 100%" width="100%" height="100%" frameborder="0" scrolling="no">
+
+  Please consult our [Calendar](https://calendar.google.com/calendar/embed?src=otgrpo8imlghmb9gi4vfsd9r1c%40group.calendar.google.com&ctz=Europe%2FLondon)
+
+  </iframe>
 </div>
 
-Until then, please explore our website or [get in touch](/contact-us/) for more information.
+<div class="opening-hours-container landscape-only">
+  <iframe 
+    src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=otgrpo8imlghmb9gi4vfsd9r1c%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=Europe%2FLondon"
+    style="border-width:0; min-height: 100%" width="100%" height="100%" frameborder="0" scrolling="no">
 
-## EOF To Do:
+  Please consult our [Calendar](https://calendar.google.com/calendar/embed?src=otgrpo8imlghmb9gi4vfsd9r1c%40group.calendar.google.com&ctz=Europe%2FLondon)
 
-1. ☑ Pick a legal structure:  **Co-op**
-1. ☑ Pick a name:  **EOF**
-1. ☑ Build website
-1. 🚧 Incorporate (in progress)
-1. 🚧 Settle in at our beautiful location in Jericho (in progress)
-1. ☐ Open our doors to the public! 🎉
-1. ☐ Outreach
+  </iframe>

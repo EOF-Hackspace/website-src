@@ -1,0 +1,42 @@
+.title-logo-container {
+  height: 220px;
+}
+
+.title-logo {
+  height: 100%; 
+  margin: auto;
+  margin-top: -60px;
+}
+
+.opening-hours-container.landscape-only {
+  height: 600px;
+}
+
+.opening-hours-container.portrait-only
+ {
+  height: 400px;
+  min-height: 75%;
+}
+
+@media screen and (orientation: landscape) {
+  .portrait-only {
+    display: none;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .landscape-only {
+    display: none;
+  }
+}
+
+/* hack to switch back to Agenda view on landscape mobiles */
+@media screen and (orientation: landscape) and (max-height: 480px) {
+  .opening-hours-container.landscape-only {
+    display: none;
+  }
+  .opening-hours-container.portrait-only {
+    display: inherit;
+    height: 300px;
+  }
+}

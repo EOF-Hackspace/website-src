@@ -6,7 +6,7 @@
 # IMPORTANT: Set the URL of your page.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://www.eof.org.uk
+url:                   https://eof.org.uk
 
 # IMPORTANT: Set The "base URL" of your site.
 #
@@ -24,7 +24,7 @@ baseurl:               /
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 EOF Co&#8209;operative Workshop
+title:                 EOF Workshop Co&#8209;operative
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -201,7 +201,7 @@ theme: jekyll-theme-hydejack
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: jHB028MRBMgS99wdkbWCnV-IiCsbdlQ3oNhxxqX3G94
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
