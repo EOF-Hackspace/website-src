@@ -1,0 +1,13 @@
+---
+layout: base
+---
+
+<header>
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-date heading">
+    <time datetime="{{page.date}}">{{page.date | date: "%d %b %Y" }}</time> in <span>
+      {% for category in page.categories %}
+      {{ category | capitalize }}{% endfor %}. 
+      {% include author.html %} </span><div class="hr pb0"></div>
+</header>
+{{content}}
