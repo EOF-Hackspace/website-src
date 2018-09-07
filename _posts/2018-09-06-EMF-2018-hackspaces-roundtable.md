@@ -3,7 +3,7 @@ layout: post
 title:  "EMFCamp 2018 Hackspaces Roundtable"
 date:   2018-09-06 17:00:00 0000
 categories: events
-author: "Iulian Arcus"
+author: iulian_arcus
 published: true
 ---
 
@@ -11,7 +11,7 @@ EMF Camp brings lots of makers, hackers and hackspace members together for a lon
 
 I will try to summarise the recording for those impatient enough but please have a listen as I'll be skipping some of the details.
 
-<br/><audio src="/assets/other/HackspacesRoundTableEMF2018.ogg" controls></audio>
+<br/><audio src="/assets/other/HackspacesRoundTableEMF2018.ogg" controls style="display:block; width: 100%;"></audio>
 
 Participants included EOF Hackspace (Oxford), London Hackspace, Milton Keynes Makespace, Making Room (blackburn), Hackburn, Build Brighton, Swansea Hackspace, Leicester Hackspace, Oxford Hackspace, Totnes Makespace, Hack Oldham, Barclays Eagle Labs, Newbury Hackspace, Weymouth Makerspace, Cambridge Makespace, MitteLab (Trieste, Italy), Hacklab.fi (Finland) and OpenWorkshopNetwork.org.
 

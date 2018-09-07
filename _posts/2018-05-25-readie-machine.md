@@ -3,7 +3,7 @@ layout: post
 title:  "Bob Brown's Readie Machine"
 date:   2018-05-25 14:00:00 0000
 categories: projects
-author: "Iulian Arcus"
+author: iulian_arcus
 published: false
 ---
 
