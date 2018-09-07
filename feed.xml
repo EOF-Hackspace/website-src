@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="https://testing.eof.org.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://testing.eof.org.uk/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-09-07T15:08:29+00:00</updated><id>https://testing.eof.org.uk/</id><title type="html">EOF Workshop Co‑operative</title><subtitle>EOF Hackspace is a member-run workshop and co-operative serving the Oxford community. Our goal is to offer tools and workspace to work on a varietry of projec types.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="https://testing.eof.org.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://testing.eof.org.uk/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-09-07T15:35:25+00:00</updated><id>https://testing.eof.org.uk/</id><title type="html">EOF Workshop Co‑operative</title><subtitle>EOF Hackspace is a member-run workshop and co-operative serving the Oxford community. Our goal is to offer tools and workspace to work on a varietry of projec types.
 </subtitle><author><name>EOF Hackspace</name><email>mailto:info@eof.org.uk</email></author><entry><title type="html">EMFCamp 2018 Hackspaces Roundtable</title><link href="https://testing.eof.org.uk/events/2018/09/06/EMF-2018-hackspaces-roundtable/" rel="alternate" type="text/html" title="EMFCamp 2018 Hackspaces Roundtable" /><published>2018-09-06T17:00:00+00:00</published><updated>2018-09-06T17:00:00+00:00</updated><id>https://testing.eof.org.uk/events/2018/09/06/EMF-2018-hackspaces-roundtable</id><content type="html" xml:base="https://testing.eof.org.uk/events/2018/09/06/EMF-2018-hackspaces-roundtable/">&lt;p&gt;EMF Camp brings lots of makers, hackers and hackspace members together for a long weekend of skill sharing, installations and well deserved geeking out. As such it meant there would be a high concentration of directors and trustees, current and former, who would be willing to share a bit about their corner of the world. So we gathered around a round table style discussion with a few agenda points organised on the UK Hackspaces Foundation forum.&lt;/p&gt;
 
 &lt;p&gt;I will try to summarise the recording for those impatient enough but please have a listen as I’ll be skipping some of the details.&lt;/p&gt;
@@ -66,4 +66,38 @@ If you do have building insurance and don’t have contents insurance, be carefu
 
 &lt;p&gt;I hope we’ll have more of these, the latest would be 2020. You’re all welcome to see the open workshop network meetings.&lt;/p&gt;
 
-&lt;p&gt;That’s a brief summary of the discussion. I hope you’ll find it useful!&lt;/p&gt;</content><author><name>Iulian Arcus</name><email>arcusiulian@gmail.com</email></author><summary type="html">EMF Camp brings lots of makers, hackers and hackspace members together for a long weekend of skill sharing, installations and well deserved geeking out. As such it meant there would be a high concentration of directors and trustees, current and former, who would be willing to share a bit about their corner of the world. So we gathered around a round table style discussion with a few agenda points organised on the UK Hackspaces Foundation forum.</summary></entry></feed>
+&lt;p&gt;That’s a brief summary of the discussion. I hope you’ll find it useful!&lt;/p&gt;</content><author><name>Iulian Arcus</name><email>arcusiulian@gmail.com</email></author><summary type="html">EMF Camp brings lots of makers, hackers and hackspace members together for a long weekend of skill sharing, installations and well deserved geeking out. As such it meant there would be a high concentration of directors and trustees, current and former, who would be willing to share a bit about their corner of the world. So we gathered around a round table style discussion with a few agenda points organised on the UK Hackspaces Foundation forum.</summary></entry><entry><title type="html">Bob Brown’s Readie Machine</title><link href="https://testing.eof.org.uk/projects/2018/05/25/readie-machine/" rel="alternate" type="text/html" title="Bob Brown's Readie Machine" /><published>2018-05-25T14:00:00+00:00</published><updated>2018-05-25T14:00:00+00:00</updated><id>https://testing.eof.org.uk/projects/2018/05/25/readie-machine</id><content type="html" xml:base="https://testing.eof.org.uk/projects/2018/05/25/readie-machine/">&lt;p&gt;During the last week I’ve been working on building a replica “e-reader” inspired by a concept from the 1930’s, initially designed by Bob Brown, an american inventor and writer.&lt;/p&gt;
+
+&lt;p&gt;The project is being spearheaded by Eric White of the American Literature department of Brookes University. To get a better feeling about the scope of the project please see his &lt;a href=&quot;https://www.youtube.com/watch?v=u0DOp107-G8&amp;amp;t&quot;&gt;talk at TEDxWhitehall&lt;/a&gt; earlier this year.&lt;/p&gt;
+
+&lt;p&gt;I first started with a delivery of gramophone motors appropriate for the time which were quite grimy and rusty. We picked the smallest one that looked in a good enough condition.&lt;/p&gt;
+
+&lt;p&gt;From there it was a slow process of loosening screws with WD-40 and photographing the process so that I can reassemble it back after cleaning.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/projects/readies/IMG_20180521_191458478.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;WD-40 wasn’t the best at soaking the grime so after quite a bit of cleaning I resorted to using Evo-Stik Adhesive Cleaner which I had laying around and says it’s a good cleaner. And clean it did.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/projects/readies/IMG_20180522_204358803.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I even disassembled the spring mechanism but didn’t want to have the ribbon spring on me so I only cleaned as much as I could.&lt;/p&gt;
+
+&lt;p&gt;On some of the exposed components there was severe rusting, especially on the top facing bits like the top plate and the disk shaft. For that I got some rust remover from the local shops which needed a couple of layers applied but in the end cleaned up most of it.&lt;/p&gt;
+
+&lt;p&gt;After that, everything was put back together and tried to see if it still worked. 
+It seems like it needed a bit of oiling and the governor seems to be very touchy as to where it sits but after adjustments I had a working gramophone motor!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/projects/readies/IMG_20180522_231402066_LL.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Part two of the project was to design a mount for a phone that would simulate the ticker tape mechanism since we didn’t have time to recreate the machine fully for an event we were preparing it for. 
+This was done by salvaging an old square magnifying glass that had a nice bronze trim so we wanted the rest of the box to look the same. 
+For that we 3D printed holders that would go over the nuts of the magnifying glass, a faceplate, and a box that would put a bit of distance between the lens and the phone and allow for a stronger distortion.
+All of this was then sanded with different grits of paper and then a couple of layers of primer and gold paint was applied (in the dead of night!).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/projects/readies/IMG_20180525_094528448_HDR.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While waiting for the prints to come out I remembered I had some pieces of cleaned-up wood sourced out of a pallet which made for a good support structure for the gramophone.&lt;/p&gt;
+
+&lt;p&gt;With everything ready I passed on the pieces to be stuck to the main box which was revealed later at &lt;a href=&quot;https://www.ashmolean.org/event/livefriday-american-cool&quot;&gt;LiveFriday: American Cool&lt;/a&gt; at the Ashmolean Museum.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/projects/readies/IMG_20180525_194815012_LL.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;</content><author><name>Iulian Arcus</name><email>arcusiulian@gmail.com</email></author><summary type="html">During the last week I’ve been working on building a replica “e-reader” inspired by a concept from the 1930’s, initially designed by Bob Brown, an american inventor and writer.</summary></entry></feed>
