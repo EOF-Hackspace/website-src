@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the EOF Workshop Co&#8209;operative
+title: Welcome to the EOF Hackspace Co&#8209;operative
 ---
 <link rel="stylesheet" href="/assets/css/custom.css">
 
@@ -15,6 +15,9 @@ We are now officially open and have started working on supporting the following 
 
 * Wood working
 * Electronics
+* Bicycle Repairs
+* 3D Printing
+* Textiles (sewing, weaving) in partnership with Makespace Oxford residents
 
 If you would like to help, or if there is another workload you would like supported, please consider [joining us](/how-to-join/) 😃.
 
