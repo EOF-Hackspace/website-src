@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Bob Brown's Readie Machine: The Workshpos"
+title:  "Bob Brown's Readie Machine: The Workshops"
 date:   2018-08-14
 categories: projects
 author: iulian_arcus
 published: true
 ---
 
-This is part 2 of the Bob Brown's Readie Machine series. Check out [part 1]().
+This is part 2 of the Bob Brown's Readie Machine series. Check out [part 1](/projects/2018/05/25/readie-machine/).
 
 The project is being spearheaded by Eric White of the American Literature department of Brookes University. To get a better feeling about the scope of the project please see his [talk at TEDxWhitehall](https://www.youtube.com/watch?v=u0DOp107-G8&t) earlier this year.
 
