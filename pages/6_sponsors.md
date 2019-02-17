@@ -13,8 +13,8 @@ permalink: /contact-us/
 <a href="https://tools.bitfolk.com/wiki/Sponsored_hosting" target="_blank" class="eof-sponsor-logo">
   <img alt="BitFolk" src="/assets/img/bitfolk.png"/>
 </a>
-EOF would like to thank the team a **BitFolk** for their generous support.
+EOF would like to thank **BitFolk** for their generous support.
 
-Our forum is hosted on a VPS provided by them *free of cost*.
+Our forum is hosted on a VPS of theirs provided at no cost.
 
 Thank you so much!
