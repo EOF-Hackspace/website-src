@@ -5,8 +5,8 @@ title: Blog
 #   -
 hide_description: true
 menu: true
-order: 2
-permalink: /posts/
+# order: 4
+permalink: /blog/
 ---
 
 See what's been happening in our community.

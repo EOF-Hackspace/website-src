@@ -37,7 +37,7 @@ tagline:               >
   A member-run workshop serving the Oxford community.
 
 # A list of keywords for your blog.
-keywords:              ["oxford", "hackspace", "community", "workshop", "makespace", "makerspace", "co-op"]
+keywords:              ["oxford", "eof", "hackspace", "hackerspace", "community", "workshop", "makespace", "makerspace", "co-op"]
 
 # Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
@@ -51,7 +51,7 @@ author:
   # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2018 EOF Hackspace CIC. All rights reserved.
+copyright:             © 2019 EOF Hackspace CIC. All rights reserved.
 
 # Format of the permalinks
 permalink:             pretty

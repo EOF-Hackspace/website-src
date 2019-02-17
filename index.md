@@ -11,7 +11,7 @@ We are a new **Community Workshop** in **Oxford**.
 
 Our aim is to support the Maker community by offering a workshop designed and operated by the community itself.
 
-We are now officially open and have started working on supporting the following work loads:
+We are now officially open and equipped (to varying degrees) for:
 
 * Wood working
 * Electronics
