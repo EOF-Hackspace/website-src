@@ -15,6 +15,6 @@ permalink: /contact-us/
 </a>
 EOF would like to thank **BitFolk** for their generous support.
 
-Our forum is hosted on a VPS of theirs provided at no cost.
+The EOF forum is hosted on a VPS provided by **BitFolk** free of charge.
 
 Thank you so much!
