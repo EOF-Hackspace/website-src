@@ -3,7 +3,7 @@ layout: page
 title: How to Join
 
 menu: true
-order: 2
+# order: 3
 permalink: /how-to-join/
 ---
 

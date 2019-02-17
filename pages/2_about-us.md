@@ -5,7 +5,7 @@ title: About Us
 #   -
 hide_description: true
 menu: true
-order: 2
+# order: 2
 permalink: /about-us/
 ---
 
