@@ -18,6 +18,14 @@
   min-height: 75%;
 }
 
+.eof-sponsor-logo {
+  float: right;
+}
+.eof-sponsor-logo>img {
+  display: inline-block;
+  width: 180px;
+}
+
 @media screen and (orientation: landscape) {
   .portrait-only {
     display: none;
