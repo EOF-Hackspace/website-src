@@ -4,7 +4,7 @@ title: Sponsors
 
 menu: true
 # order: 6
-permalink: /contact-us/
+permalink: /sponsors/
 ---
 
 <link rel="stylesheet" href="/assets/css/custom.css">
