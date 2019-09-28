@@ -26,7 +26,8 @@ author1:
     facebook:        EOFCoop
     meetup:          "eof-events"
     #download:        https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
-    github:          "EOF-Hackspace"
+    # github:          "EOF-Hackspace"
+    discord:         "https://discord.gg/ANSdGCR"
     email:           mailto:info@eof.org.uk
     # rss:             https://<url>/feed.xml
     # google:          <number>
@@ -61,7 +62,6 @@ author1:
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    discord:          "https://discord.gg/ANSdGCR"
 
 # Another author
 iulian_arcus:
