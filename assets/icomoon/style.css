@@ -1,12 +1,13 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?2bc72h');
-  src:  url('fonts/icomoon.eot?2bc72h#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?2bc72h') format('truetype'),
-    url('fonts/icomoon.woff?2bc72h') format('woff'),
-    url('fonts/icomoon.svg?2bc72h#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?56it0b');
+  src:  url('fonts/icomoon.eot?56it0b#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?56it0b') format('truetype'),
+    url('fonts/icomoon.woff?56it0b') format('woff'),
+    url('fonts/icomoon.svg?56it0b#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -24,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-discord:before {
+  content: "\e901";
+}
+.icon-meetup:before {
+  content: "\e900";
+}
 .icon-book:before {
   content: "\e91f";
 }
@@ -266,7 +273,4 @@
 }
 .icon-mail2:before {
   content: "\ea84";
-}
-.icon-meetup:before {
-  content: "\e900";
 }
