@@ -207,3 +207,6 @@
     name: Meetup
     icon: icon-meetup
     prepend: "https://www.meetup.com/"
+  discord:
+    name: Discord
+    icon: icon-discord
