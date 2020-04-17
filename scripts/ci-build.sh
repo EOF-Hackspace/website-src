@@ -41,7 +41,6 @@ if [[ $USE_PROD_CONFIG == "true" ]]; then
 fi
 
 # build with Jekyll into "_site"
-gem install bundler -v 1.17.2 # hack to deal with https://bundler.io/blog/2019/01/04/an-update-on-the-bundler-2-release.html
 bundle exec jekyll build
 #bundle exec htmlproofer ./_site
 
