@@ -48,3 +48,14 @@
     height: 300px;
   }
 }
+
+.covid-19 {
+  background: pink;
+  padding: 25px;
+  border: solid 1px red;
+  margin-bottom: 25px;
+}
+.covid-19.covid-19 a {
+  font-weight: bold;
+  color: black;
+}

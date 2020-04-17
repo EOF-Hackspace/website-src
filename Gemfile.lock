@@ -105,6 +105,3 @@ DEPENDENCIES
   jekyll-theme-hydejack (= 7.5.0)
   jekyll-titles-from-headings
   tzinfo-data
-
-BUNDLED WITH
-   1.17.2
