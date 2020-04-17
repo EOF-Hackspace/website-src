@@ -16,24 +16,26 @@ Once you are ready, we will ask you to fill in a subscription form and submit a 
 
 We hope to facilitate access to people who otherwise can't afford such a space, therefore we operate on a means-based fee. Starting at £10/month for anyone earning under £10,000/yr and adding £5 for each £10,000/yr. We know some of you are sole earners in the family or take breaks from work to do personal projects so use the above calculation as a guide to what we think you should pay.
 
-For those who wish to use the space for running a business, please send us an email at [business@eof.org.uk](mailto:business@eof.org.uk) to allow us to make sure we can accommodate you.
+For those who wish to use the space as part of their business operations, please send us an email at [business@eof.org.uk](mailto:business@eof.org.uk) and we'll see if we can accomodate you.
 
-After everything is processed you'll be given access to our facilities during opening hours, access to the forum and other communication channels, receive discounts on events and much more.
+After everything is processed you'll be given access to our facilities during opening hours. <!-- access to the forum and other communication channels, receive discounts on events and much more. -->
 
-Member of the Cooperative
+Member of the Co-operative
 ---
 
-Becoming a member of the cooperative requires a bit more effort but we promise it will be worth it! Besides gaining voting rights during general meetings, you'll also be able to steer the tools and events budget towards your interests.
+**Becoming a member of the cooperative is entirely optional.  You can be a user of the space without being a member of the co-op.**
 
-In return you will have to be an active participant in the running of the space, either by helping out with events, with the operations of the space, or hosting some classes. It could be as little as tidying up a part of the space every few weeks, or coming to a couple of our public consultation meetings.
+That being said, becoming a co-op member requires a bit more effort but we promise it will be worth it! Besides gaining voting rights during general meetings, you'll also be able to steer the tools and events budget towards your interests.
 
-We'll try to make the application process as smooth as possible, either as an option on the registration form, or by making a direct application. When you fulfil the criteria, you'll be given member status by the trustees.
+In return we ask you to be an active participant in the running of the space.  At a minimum this means attending company General Meetings but we encourage involvement such as helping run events, taking responsibility for the tidiness of a section of the hackspace, taking up a role in the operations of the space, and running workshops or classes for members or the public.
+
+<!-- We'll try to make the application process as smooth as possible, either as an option on the registration form, or by making a direct application. When you fulfil the criteria, you'll be given member status by the trustees. -->
 
 Supporters
 ---
 
 If you wish to help us without using our facilities, you can still contribute in many other ways.
 
-We are accepting money donations, either recurring or one-off. We are also looking for tools, but keep in mind we will have to make sure they are of use to the community. Check the [Donations](/donations/) page for what we are keen to receive.
+We are accepting money donations, either recurring or one-off. We are also looking for tools, but keep in mind we will have to make sure they are of use to the community.
 
-If you're a business looking to help the community, you can do that by sponsoring events or tools, offering free professional consultancy, or anything else you can think of. We'll be very grateful and be sure to mention you on our supporters page.
+If you're a business looking to help the community, you can do that by sponsoring events or tools, offering free professional consultancy, or anything else you can think of. We'll be very grateful and we'll add you on our [Sponsors](/sponsors/) page.
