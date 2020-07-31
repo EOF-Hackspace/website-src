@@ -50,12 +50,15 @@
 }
 
 .covid-19 {
-  background: pink;
+  background: rgba(255, 165, 0, 0.5);
   padding: 25px;
-  border: solid 1px red;
+  border: solid 1px orangered;
   margin-bottom: 25px;
 }
 .covid-19.covid-19 a {
   font-weight: bold;
   color: black;
+}
+.covid-19.covid-19 h3 {
+  margin-top: unset;
 }
