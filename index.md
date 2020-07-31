@@ -9,17 +9,18 @@ title: Welcome to the EOF Hackspace Co&#8209;operative
 </div>
 
 <div class="covid-19">
-
-In light of the ongoing COVID-19 situation we have suspended all of our on-site activities.
-
-If you would still like to get involved please come say hello on our:
-
-<ul>
-<li><a href="/chat/">Discord Chat</a>; or</li>
-<li><a href="/forum">Forum</a></li>
-</ul>
+<h3>
+We are now starting to resume on-site activities.  
+</h3>
+<p>
+If you would like to visit us, please get in touch on our <a href="https://join-chat.eof.org.uk">Discord Chat</a>.
+</p>
+<p>
+We'll be posting our upcoming events on <a href="https://www.meetup.com/EOF-Events/">MeetUp</a> page.
+</p>
+<p>
 Stay safe.
-
+</p>
 </div>
 
 We are a **community tools workshop** in **Oxford**.
