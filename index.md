@@ -10,16 +10,13 @@ title: Welcome to the EOF Hackspace Co&#8209;operative
 
 <div class="covid-19">
 <h3>
-We are now starting to resume on-site activities.  
+Weekly socials on Wednesdays evening! Confirm with the calendar below. 
 </h3>
 <p>
 If you would like to visit us, please get in touch on our <a href="https://join-chat.eof.org.uk">Discord Chat</a>.
 </p>
 <p>
-We'll be posting our upcoming events on <a href="https://www.meetup.com/EOF-Events/">MeetUp</a> page.
-</p>
-<p>
-Stay safe.
+We'll be posting our upcoming events on our <a href="https://www.eventbrite.co.uk/o/eof-hackspace-oxford-35612272033">Eventbrite</a> page.
 </p>
 </div>
 
@@ -29,10 +26,11 @@ Our aim is to support the Maker community by offering a workshop designed and op
 
 We are currently equipped (to varying degrees) for:
 
-* Wood working
+* New! Metal working
+* Wood working (inc. CNC)
 * Electronics
 * Bicycle Repairs
-* 3D Printing
+* 3D Printing (Resin and FDM)
 * Textiles
 
 If you would like to help, or if there is another workload you would like supported, please consider [joining us](/how-to-join/) 😃.
