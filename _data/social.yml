@@ -210,3 +210,6 @@
   discord:
     name: Discord
     icon: icon-discord
+  eventbrite:
+    name: Eventbrite
+    icon: icon-eventbrite
