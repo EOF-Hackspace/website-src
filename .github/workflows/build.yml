@@ -87,7 +87,7 @@ jobs:
           ref: master
           path: ./_prod
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROD_TOKEN }}
 
 
       - name: 🚀 deploy to Production
