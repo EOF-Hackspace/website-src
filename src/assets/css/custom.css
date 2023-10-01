@@ -1,0 +1,64 @@
+.title-logo-container {
+  height: 220px;
+}
+
+img.title-logo {
+  height: 100%; 
+  margin: -40px auto -40px auto;
+  clip-path: margin-box;
+}
+
+.opening-hours-container.landscape-only {
+  height: 600px;
+}
+
+.opening-hours-container.portrait-only
+ {
+  height: 400px;
+  min-height: 75%;
+}
+
+.eof-sponsor-logo {
+  float: right;
+}
+.eof-sponsor-logo>img {
+  display: inline-block;
+  width: 180px;
+}
+
+@media screen and (orientation: landscape) {
+  .portrait-only {
+    display: none;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .landscape-only {
+    display: none;
+  }
+}
+
+/* hack to switch back to Agenda view on landscape mobiles */
+@media screen and (orientation: landscape) and (max-height: 480px) {
+  .opening-hours-container.landscape-only {
+    display: none;
+  }
+  .opening-hours-container.portrait-only {
+    display: inherit;
+    height: 300px;
+  }
+}
+
+.notice-banner {
+  background: rgb(201, 222, 255);
+  padding: 25px;
+  border: solid 1px rgb(124, 152, 255);
+  margin-bottom: 25px;
+}
+.notice-banner.notice-banner a {
+  font-weight: bold;
+  color: black;
+}
+.notice-banner.notice-banner h3 {
+  margin-top: unset;
+}

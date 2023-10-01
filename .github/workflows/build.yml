@@ -1,0 +1,157 @@
+name: Build and deploy jekyll site
+
+on:
+  push:
+    branches: ["main", "production", "yc-*"]
+#   pull_request:
+#     branches: ["main"]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  jekyll-build:
+    name: 🔨 Build
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 📂 checkout
+        uses: actions/checkout@v3
+
+
+      - name: 🧞 grant necessary filesystem access
+        run: chmod 0777 ./src
+
+
+      - name: ⚙️ apply pre-build tweaks
+        run: ./scripts/pre-build.sh
+
+
+      - name: 🔨 build
+        uses: isbang/compose-action@v1.4.1
+        with:
+          compose-file: "docker-compose.yml"
+          up-flags: --abort-on-container-exit
+
+
+      - name: 🤐 apply post-build tweaks
+        run: |
+          sudo chown -R runner:runner ./src/_site/
+          ./scripts/post-build.sh
+
+
+      # - name: 🔼 upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #   with:
+      #     path: "./src/_site"
+
+      - name: 🚀 pull GH Pages (Non-Production)
+        if: ${{ github.ref != 'refs/heads/production'}}
+        uses: actions/checkout@v3
+        with:
+          repository: EOF-Hackspace/website-src
+          ref: gh-pages
+          path: ./_nonProd
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+      - name: 🚀 deploy to GH Pages (Non-Production)
+        if: ${{ github.ref != 'refs/heads/production'}}
+        id: nonProdDeployment
+        run: |
+          set -euxo pipefail
+
+          #mkdir _nonProd
+          #gh repo clone EOF-Hackspace/website-src _nonProd -- --branch gh-pages
+
+          cd ./_nonProd
+          git rm -r * -f -q
+          cp -r ../src/_site/* .
+
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add --all
+          git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
+
+          git push --force origin gh-pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+      - name: 🚀 deploy to Production
+        if: ${{ github.ref == 'refs/heads/production'}}
+        id: prodDeployment
+        run: |
+          set -euxo pipefail
+
+          mkdir _prod
+          gh repo clone EOF-Hackspace/website-production _prod -- --branch master 
+          cd _prod
+          git rm -r * -f -q
+          cp -r ../src/_site/* .
+
+          git config user.email "MetaFight@users.noreply.github.com"
+          git config user.name "MetaFight"
+          
+          git add --all
+          git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
+
+          git push --force origin master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # # Deployment job
+  # deploy:
+  #   name: 🚀 Deployment
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   needs: jekyll-build
+  #   steps:
+  #     # - name: 🚀 deploy to GH Pages
+  #     #   if: ${{ github.ref != 'refs/heads/production'}}
+  #     #   id: nonProdDeployment
+  #     #   uses: actions/deploy-pages@v2.0.0
+
+  #     - name: 🚀 deploy to GH Pages (Non-Production)
+  #       if: ${{ github.ref != 'refs/heads/production'}}
+  #       id: nonProdDeployment
+  #       run: |
+  #         mkdir _nonProd
+  #         git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-src.git --branch gh-pages _nonProd
+  #         cd _nonProd
+  #         git rm -r * -f -q
+  #         cp -r ./src/_site/* .
+  #         rm README.md
+
+  #         git add --all
+  #         git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
+  #         git push --force origin gh-pages
+
+
+  #     - name: 🚀 deploy to Production
+  #       if: ${{ github.ref == 'refs/heads/production'}}
+  #       id: prodDeployment
+  #       run: |
+  #         mkdir _prod
+  #         git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-production.git --branch master _prod
+  #         cd _prod
+  #         git rm -r * -f -q
+  #         cp -r ../src/_site/* .
+  #         rm README.md
+
+  #         git add --all
+  #         git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
+  #         git push --force origin master
