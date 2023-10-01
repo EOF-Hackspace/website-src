@@ -49,26 +49,11 @@ jobs:
           ./scripts/post-build.sh
 
 
-      - name: 🔼 upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "./src/_site"
+      # - name: 🔼 upload artifact
+      #   uses: actions/upload-pages-artifact@v1
+      #   with:
+      #     path: "./src/_site"
 
-
-
-  # Deployment job
-  deploy:
-    name: 🚀 Deployment
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: jekyll-build
-    steps:
-      # - name: 🚀 deploy to GH Pages
-      #   if: ${{ github.ref != 'refs/heads/production'}}
-      #   id: nonProdDeployment
-      #   uses: actions/deploy-pages@v2.0.0
 
       - name: 🚀 deploy to GH Pages (Non-Production)
         if: ${{ github.ref != 'refs/heads/production'}}
@@ -78,7 +63,7 @@ jobs:
           git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-src.git --branch gh-pages _nonProd
           cd _nonProd
           git rm -r * -f -q
-          cp -r ../src/_site/* .
+          cp -r ./src/_site/* .
           rm README.md
 
           git add --all
@@ -100,3 +85,48 @@ jobs:
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
           git push --force origin master
+
+  # # Deployment job
+  # deploy:
+  #   name: 🚀 Deployment
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   needs: jekyll-build
+  #   steps:
+  #     # - name: 🚀 deploy to GH Pages
+  #     #   if: ${{ github.ref != 'refs/heads/production'}}
+  #     #   id: nonProdDeployment
+  #     #   uses: actions/deploy-pages@v2.0.0
+
+  #     - name: 🚀 deploy to GH Pages (Non-Production)
+  #       if: ${{ github.ref != 'refs/heads/production'}}
+  #       id: nonProdDeployment
+  #       run: |
+  #         mkdir _nonProd
+  #         git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-src.git --branch gh-pages _nonProd
+  #         cd _nonProd
+  #         git rm -r * -f -q
+  #         cp -r ./src/_site/* .
+  #         rm README.md
+
+  #         git add --all
+  #         git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
+  #         git push --force origin gh-pages
+
+
+  #     - name: 🚀 deploy to Production
+  #       if: ${{ github.ref == 'refs/heads/production'}}
+  #       id: prodDeployment
+  #       run: |
+  #         mkdir _prod
+  #         git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-production.git --branch master _prod
+  #         cd _prod
+  #         git rm -r * -f -q
+  #         cp -r ../src/_site/* .
+  #         rm README.md
+
+  #         git add --all
+  #         git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
+  #         git push --force origin master
