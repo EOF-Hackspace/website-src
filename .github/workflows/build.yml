@@ -47,6 +47,7 @@ jobs:
 
       - name: 🤐 apply post-build tweaks
         run: |
+          chmod 0777 ./src/_site
           chmod +x ./scripts/post-build.sh
           ./scripts/post-build.sh
 
