@@ -65,7 +65,8 @@ jobs:
           git rm -r * -f -q
           cp -r ../src/_site/* .
 
-          ls -la
+          git config user.email "MetaFight@users.noreply.github.com"
+          git config user.name "MetaFight"
 
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
@@ -82,7 +83,10 @@ jobs:
           git rm -r * -f -q
           cp -r ../src/_site/* .
           # rm README.md
-
+          
+          git config user.email "MetaFight@users.noreply.github.com"
+          git config user.name "MetaFight"
+          
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
           git push --force origin master
