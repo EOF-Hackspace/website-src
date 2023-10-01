@@ -1,16 +1,11 @@
 #!/bin/bash
+set -euxo pipefail
 
 cd ./src
 
-echo "----"
-echo "CWD:"
-ls
+ls -la
 
-echo "----"
-echo "SITE:"
-ls ./_site/
-
-echo "----"
+ls -la ./_site/
 
 if [[ $GITHUB_REF_NAME != "production" ]]; then
   echo "Using disabled robots.txt."
