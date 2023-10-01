@@ -73,8 +73,7 @@ jobs:
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
 
-          git remote add fudge git@github.com:EOF-Hackspace/website-src.git 
-          git push --force fudge gh-pages
+          git push --force origin gh-pages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -99,7 +98,7 @@ jobs:
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
 
           git remote add fudge git@github.com:EOF-Hackspace/website-production.git 
-          git push --force fudge master
+          git push --force origin master
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
