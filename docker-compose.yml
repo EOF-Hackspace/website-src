@@ -1,13 +1,11 @@
 version: '3'
 
 services:
-  jekyll-serve:
-    image: website-src:latest
-    build:
-      context: .
-      dockerfile: ./Dockerfile
+  jekyll:
+    container_name: eofWebBuildEnv
+    image: jekyll/jekyll:3
     volumes:
-      - .:/src
-    ports:
-      - '4000:4000'
-      - '35729:35729'
+      - ./src:/srv/jekyll:rw
+    entrypoint:
+      - jekyll
+      - build
