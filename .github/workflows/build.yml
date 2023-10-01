@@ -75,6 +75,8 @@ jobs:
 
           git remote add fudge git@github.com:EOF-Hackspace/website-src.git 
           git push --force fudge gh-pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
       - name: 🚀 deploy to Production
@@ -98,6 +100,8 @@ jobs:
 
           git remote add fudge git@github.com:EOF-Hackspace/website-production.git 
           git push --force fudge master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # # Deployment job
   # deploy:
