@@ -62,13 +62,10 @@ jobs:
           set -euxo pipefail
 
           mkdir _nonProd
-          git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-src.git --branch gh-pages _nonProd
+          gh repo clone EOF-Hackspace/website-src.git _nonProd -- --branch gh-pages
           cd _nonProd
           git rm -r * -f -q
           cp -r ../src/_site/* .
-
-          git config user.email "MetaFight@users.noreply.github.com"
-          git config user.name "MetaFight"
 
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
@@ -85,19 +82,14 @@ jobs:
           set -euxo pipefail
 
           mkdir _prod
-          git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-production.git --branch master _prod
+          gh repo clone EOF-Hackspace/website-production.git _prod -- --branch master 
           cd _prod
           git rm -r * -f -q
           cp -r ../src/_site/* .
-          # rm README.md
-          
-          git config user.email "MetaFight@users.noreply.github.com"
-          git config user.name "MetaFight"
           
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
 
-          git remote add fudge git@github.com:EOF-Hackspace/website-production.git 
           git push --force origin master
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
