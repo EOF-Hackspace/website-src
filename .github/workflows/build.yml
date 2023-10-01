@@ -73,8 +73,8 @@ jobs:
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
 
-          #gh repo sync -b gh-pages --force
-          git push --force origin gh-pages
+          gh repo sync EOF-Hackspace/website-src -b gh-pages --force
+          #git push --force origin gh-pages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -97,8 +97,8 @@ jobs:
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
 
-          #gh repo sync -b master --force
-          git push --force origin master
+          gh repo sync EOF-Hackspace/website-production -b master --force
+          #git push --force origin master
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
