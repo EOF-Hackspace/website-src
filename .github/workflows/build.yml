@@ -62,7 +62,7 @@ jobs:
           set -euxo pipefail
 
           mkdir _nonProd
-          gh repo clone EOF-Hackspace/website-src.git _nonProd -- --branch gh-pages
+          gh repo clone EOF-Hackspace/website-src _nonProd -- --branch gh-pages
           cd _nonProd
           git rm -r * -f -q
           cp -r ../src/_site/* .
@@ -82,7 +82,7 @@ jobs:
           set -euxo pipefail
 
           mkdir _prod
-          gh repo clone EOF-Hackspace/website-production.git _prod -- --branch master 
+          gh repo clone EOF-Hackspace/website-production _prod -- --branch master 
           cd _prod
           git rm -r * -f -q
           cp -r ../src/_site/* .
