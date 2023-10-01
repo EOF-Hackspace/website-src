@@ -7,7 +7,7 @@ menu: true
 permalink: /how-to-join/
 ---
 
-Using the space
+Using the Space
 ---
 
 Whether you want to work on your projects or bounce ideas off other enthusiastic people, we need to get to know you. So come to one of our open evenings and have a chat with one of our wonderful greeters. They'll be able to talk you through what we're capable of offering and what our current situation is. We'll also get to know you a bit and hopefully make sure that we can offer you what you expect from your subscription.
