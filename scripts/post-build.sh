@@ -7,6 +7,8 @@ ls -la
 
 ls -la ./_site/
 
+chown runner:runner ./_site/
+
 if [[ $GITHUB_REF_NAME != "production" ]]; then
   echo "Using disabled robots.txt."
   cp -f ./robots.disabled.txt ./_site/robots.txt
