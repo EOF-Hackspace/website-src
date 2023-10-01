@@ -8,6 +8,8 @@ title: Welcome to the EOF Hackspace Co&#8209;operative
   <img alt="EOF Workshop Co-op" src="/assets/img/logo.jpg" class="title-logo" />
 </div>
 
+<div style="display: none;">Testing build</div>
+
 <div class="covid-19">
 <h3>
 Weekly socials on Wednesdays evening! Confirm with the calendar below. 
