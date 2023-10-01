@@ -65,12 +65,26 @@ jobs:
     runs-on: ubuntu-latest
     needs: jekyll-build
     steps:
+      # - name: 🚀 deploy to GH Pages
+      #   if: ${{ github.ref != 'refs/heads/production'}}
+      #   id: nonProdDeployment
+      #   uses: actions/deploy-pages@v2.0.0
+
       - name: 🚀 deploy to GH Pages
-        if: ${{ github.ref != 'refs/heads/production'}}
+        if: ${{ github.ref == 'refs/heads/production'}}
         id: nonProdDeployment
-        uses: actions/deploy-pages@v2.0.0
-#         with:
-#           preview: ${{ github.event_name == 'pull_request' }}        
+        run: |
+          mkdir _nonProd
+          git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-src.git --branch gh-pages _nonProd
+          cd _nonProd
+          git rm -r * -f -q
+          cp -r ../src/_site/* .
+          rm README.md
+
+          git add --all
+          git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
+          git push --force origin gh-pages
+
 
       - name: 🚀 deploy to Production
         if: ${{ github.ref == 'refs/heads/production'}}

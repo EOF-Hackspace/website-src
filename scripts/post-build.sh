@@ -2,7 +2,6 @@
 set -euxo pipefail
 
 cd ./src
-ls -la ./_site/
 
 if [[ $GITHUB_REF_NAME != "production" ]]; then
   echo "Using disabled robots.txt."
