@@ -2,10 +2,10 @@
 layout: page
 title: Welcome to the EOF Hackspace Co&#8209;operative
 ---
-<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="stylesheet" href="./assets/css/custom.css">
 
 <div class="title-logo-container">
-  <img alt="EOF Workshop Co-op" src="/assets/img/logo.jpg" class="title-logo" />
+  <img alt="EOF Workshop Co-op" src="./assets/img/logo.jpg" class="title-logo" />
 </div>
 
 <div class="notice-banner">
