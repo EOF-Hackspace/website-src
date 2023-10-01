@@ -1,8 +1,16 @@
 #!/bin/bash
 
 cd ./src
+
+echo "----"
+echo "CWD:"
 ls
+
+echo "----"
+echo "SITE:"
 ls ./_site/
+
+echo "----"
 
 if [[ $GITHUB_REF_NAME != "production" ]]; then
   echo "Using disabled robots.txt."
