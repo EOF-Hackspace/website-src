@@ -54,6 +54,16 @@ jobs:
       #   with:
       #     path: "./src/_site"
 
+      - name: 🚀 pull GH Pages (Non-Production)
+        if: ${{ github.ref != 'refs/heads/production'}}
+        uses: actions/checkout@v3
+        with:
+          repository: EOF-Hackspace/website-src
+          ref: gh-pages
+          path: ./_nonProd
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: 🚀 deploy to GH Pages (Non-Production)
         if: ${{ github.ref != 'refs/heads/production'}}
@@ -61,19 +71,19 @@ jobs:
         run: |
           set -euxo pipefail
 
-          mkdir _nonProd
-          gh repo clone EOF-Hackspace/website-src _nonProd -- --branch gh-pages
-          cd _nonProd
+          #mkdir _nonProd
+          #gh repo clone EOF-Hackspace/website-src _nonProd -- --branch gh-pages
+
+          cd ./_nonProd
           git rm -r * -f -q
           cp -r ../src/_site/* .
 
-          git config user.email "MetaFight@users.noreply.github.com"
-          git config user.name "MetaFight"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
 
-          git remote set-url --push origin https://MetaFight:$GITHUB_TOKEN@github.com/EOF-Hackspace/website-src.git
           git push --force origin gh-pages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
