@@ -86,7 +86,6 @@ jobs:
           repository: EOF-Hackspace/website-production
           ref: master
           path: ./_prod
-        env:
           token: ${{ secrets.PROD_TOKEN }}
 
 
