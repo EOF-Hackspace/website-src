@@ -44,7 +44,9 @@ jobs:
 
 
       - name: 🤐 apply post-build tweaks
-        run: sudo ./scripts/post-build.sh
+        run: |
+          sudo chown -R runner:runner ./src/_site/
+          ./scripts/post-build.sh
 
 
       - name: 🔼 upload artifact

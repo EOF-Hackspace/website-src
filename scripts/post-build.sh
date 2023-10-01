@@ -2,13 +2,6 @@
 set -euxo pipefail
 
 cd ./src
-
-ls -la
-
-ls -la ./_site/
-
-chown runner:runner ./_site/
-
 ls -la ./_site/
 
 if [[ $GITHUB_REF_NAME != "production" ]]; then
