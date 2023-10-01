@@ -2,10 +2,10 @@
   height: 220px;
 }
 
-.title-logo {
+img.title-logo {
   height: 100%; 
-  margin: auto;
-  margin-top: -60px;
+  margin: -40px auto -40px auto;
+  clip-path: margin-box;
 }
 
 .opening-hours-container.landscape-only {
@@ -49,16 +49,16 @@
   }
 }
 
-.covid-19 {
-  background: rgba(255, 165, 0, 0.5);
+.notice-banner {
+  background: rgb(201, 222, 255);
   padding: 25px;
-  border: solid 1px orangered;
+  border: solid 1px rgb(124, 152, 255);
   margin-bottom: 25px;
 }
-.covid-19.covid-19 a {
+.notice-banner.notice-banner a {
   font-weight: bold;
   color: black;
 }
-.covid-19.covid-19 h3 {
+.notice-banner.notice-banner h3 {
   margin-top: unset;
 }
