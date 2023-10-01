@@ -33,9 +33,7 @@ jobs:
 
 
       - name: ⚙️ apply pre-build tweaks
-        run: |
-          chmod +x ./scripts/pre-build.sh
-          ./scripts/pre-build.sh
+        run: ./scripts/pre-build.sh
 
 
       - name: 🔨 build
@@ -46,10 +44,7 @@ jobs:
 
 
       - name: 🤐 apply post-build tweaks
-        run: |
-          chmod 0777 ./src/_site
-          chmod +x ./scripts/post-build.sh
-          ./scripts/post-build.sh
+        run: sudo ./scripts/post-build.sh
 
 
       - name: 🔼 upload artifact
