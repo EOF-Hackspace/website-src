@@ -67,10 +67,14 @@ jobs:
           git rm -r * -f -q
           cp -r ../src/_site/* .
 
+          git config user.email "MetaFight@users.noreply.github.com"
+          git config user.name "MetaFight"
+
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
 
-          git push --force origin gh-pages
+          gh repo sync -b gh-pages --force
+          #git push --force origin gh-pages
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -86,11 +90,15 @@ jobs:
           cd _prod
           git rm -r * -f -q
           cp -r ../src/_site/* .
+
+          git config user.email "MetaFight@users.noreply.github.com"
+          git config user.name "MetaFight"
           
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
 
-          git push --force origin master
+          gh repo sync -b master --force
+          #git push --force origin master
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
