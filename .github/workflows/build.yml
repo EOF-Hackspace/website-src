@@ -64,7 +64,8 @@ jobs:
           cd _nonProd
           git rm -r * -f -q
           cp -r ../src/_site/* .
-          rm README.md
+
+          ls -la
 
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
@@ -80,7 +81,7 @@ jobs:
           cd _prod
           git rm -r * -f -q
           cp -r ../src/_site/* .
-          rm README.md
+          # rm README.md
 
           git add --all
           git commit -a -m "GitHub Actions build $GITHUB_RUN_NUMBER"
