@@ -70,8 +70,8 @@ jobs:
       #   id: nonProdDeployment
       #   uses: actions/deploy-pages@v2.0.0
 
-      - name: 🚀 deploy to GH Pages
-        if: ${{ github.ref == 'refs/heads/production'}}
+      - name: 🚀 deploy to GH Pages (Non-Production)
+        if: ${{ github.ref != 'refs/heads/production'}}
         id: nonProdDeployment
         run: |
           mkdir _nonProd
