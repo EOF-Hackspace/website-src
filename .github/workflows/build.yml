@@ -63,7 +63,7 @@ jobs:
           git clone https://${GH_TOKEN}@github.com/EOF-Hackspace/website-src.git --branch gh-pages _nonProd
           cd _nonProd
           git rm -r * -f -q
-          cp -r ./src/_site/* .
+          cp -r ../src/_site/* .
           rm README.md
 
           git add --all
