@@ -13,6 +13,7 @@ You can reach us by Email or on any of our social media presences:
 * **Facebook** [@EOFCoop](https://facebook.com/EOFCoop)
 * **Twitter**  [@EOFCoop](https://twitter.com/@EOFCoop)
 * **Eventbrite**  [eof-hackspace-oxford](https://www.eventbrite.co.uk/o/eof-hackspace-oxford-35612272033)
+* **Phone Number** [(+44)01865985415](tel:+441865985415)
 
 ## How to Get Here
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.0829365002064!2d-1.2712141852114374!3d51.76809097345794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c56e46d7c509%3A0xb9b3be532dc6730c!2sEOF%20Hackspace!5e0!3m2!1sen!2suk!4v1695819728517!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
