@@ -38,9 +38,7 @@ If you would like to help, or if there is another workload you would like suppor
 ## Opening Hours
 
 <div class="opening-hours-container portrait-only">
-  <iframe 
-    src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=otgrpo8imlghmb9gi4vfsd9r1c%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=Europe%2FLondon"
-    style="border-width:0; min-height: 100%" width="100%" height="100%" frameborder="0" scrolling="no">
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FLondon&showDate=1&src=b3RncnBvOGltbGdobWI5Z2k0dmZzZDlyMWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no">
 
   Please consult our [Calendar](https://calendar.google.com/calendar/embed?src=otgrpo8imlghmb9gi4vfsd9r1c%40group.calendar.google.com&ctz=Europe%2FLondon)
 
@@ -48,9 +46,7 @@ If you would like to help, or if there is another workload you would like suppor
 </div>
 
 <div class="opening-hours-container landscape-only">
-  <iframe 
-    src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=otgrpo8imlghmb9gi4vfsd9r1c%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=Europe%2FLondon"
-    style="border-width:0; min-height: 100%" width="100%" height="100%" frameborder="0" scrolling="no">
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FLondon&showDate=1&src=b3RncnBvOGltbGdobWI5Z2k0dmZzZDlyMWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no">
 
   Please consult our [Calendar](https://calendar.google.com/calendar/embed?src=otgrpo8imlghmb9gi4vfsd9r1c%40group.calendar.google.com&ctz=Europe%2FLondon)
 

@@ -10,13 +10,13 @@ permalink: /how-to-join/
 Using the Space
 ---
 
-Whether you want to work on your projects or bounce ideas off other enthusiastic people, we need to get to know you. So come to one of our open evenings and have a chat with one of our wonderful greeters. They'll be able to talk you through what we're capable of offering and what our current situation is. We'll also get to know you a bit and hopefully make sure that we can offer you what you expect from your subscription.
+Whether you want to work on your projects or bounce ideas off other enthusiastic people, we need to get to know you. So come to one of our open evenings and have a chat with one of our wonderful greeters. They'll be able to talk you through what we're capable of offering and what our current situation is. We'll also get to know you a bit and hopefully make sure that we can offer you what you expect from your membership.
 
-Once you are ready, we will ask you to fill in a subscription form and submit a payment, either in person to the treasurer or secretary, or, in the near future, via our online payment service.
+Once you are ready, we will ask you to fill in a membership form and submit a payment, preferably by standing order. Our standard membership is currently at £35/month. We hope to facilitate access to people who otherwise can't afford such a space, therefore we operate on a means-based fee. Further instructions are in the membership form.
 
-We hope to facilitate access to people who otherwise can't afford such a space, therefore we operate on a means-based fee. Starting at £10/month for anyone earning under £10,000/yr and adding £5 for each £10,000/yr. We know some of you are sole earners in the family or take breaks from work to do personal projects so use the above calculation as a guide to what we think you should pay.
+[Link to membership form](https://forms.gle/wTV6MXY9NtACAYFu9)
 
-For those who wish to use the space as part of their business operations, please send us an email at [business@eof.org.uk](mailto:business@eof.org.uk) and we'll see if we can accomodate you.
+For those who wish to use the space as part of their business operations, please send us an email at [info@eof.org.uk](mailto:info@eof.org.uk) and we'll see if we can accomodate you.
 
 After everything is processed you'll be given access to our facilities during opening hours. <!-- access to the forum and other communication channels, receive discounts on events and much more. -->
 
